@@ -914,6 +914,12 @@ section {
   box-shadow: var(--shadow-md);
 }
 
+a.project-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-lg);
@@ -952,12 +958,8 @@ section {
 }
 
 .project-body {
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 1.5rem 2rem 2rem;
+  flex: 1;
 }
 
 .project-title {
